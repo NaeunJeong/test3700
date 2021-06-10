@@ -1,0 +1,694 @@
+@charset "utf-8";
+
+html {font-family: 'Roboto','Noto Sans KR', sans-serif;scroll-behavior: smooth;}
+
+		h1{text-align: center;margin: auto;font-size: 15px; font-weight: 500;padding-top: 380px;padding-bottom:400px;
+			}
+
+			.portfolio-experiment, .scene {
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.portfolio-experiment {
+
+  color: black
+}
+.portfolio-experiment .experiment-title {
+  outline: none;
+  font-size: 10vw;
+  text-align: center;
+  font-family: "Roboto", monospace;
+  min-height: 10vw;
+  max-width: 80vw;
+  min-width: 10vw;
+}
+.portfolio-experiment .experiment-title,
+.portfolio-experiment .experiment-title * {
+  -webkit-animation: cray 6s infinite steps(50);
+          animation: cray 6s infinite steps(50);
+  display: inline-block;
+}
+@-webkit-keyframes cray {
+  2% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  4% {
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  6% {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  8% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  10% {
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  12% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  14% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  16% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  18% {
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  20% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  22% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  24% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  26% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  28% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  30% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  32% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  34% {
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  36% {
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  38% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  40% {
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  42% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  44% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  46% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  48% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  50% {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  52% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  54% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  56% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  58% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  60% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  62% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  64% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  66% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  68% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  70% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  72% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  74% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  76% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  78% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  80% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  82% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  84% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  86% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  88% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  90% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  92% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  94% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  96% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  98% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+}
+@keyframes cray {
+  2% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  4% {
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  6% {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  8% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  10% {
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  12% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  14% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  16% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  18% {
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  20% {
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  22% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  24% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  26% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  28% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  30% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  32% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  34% {
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  36% {
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  38% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  40% {
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  42% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  44% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  46% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  48% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  50% {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  52% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  54% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  56% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  58% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  60% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  62% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+  }
+  64% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  66% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  68% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  70% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  72% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  74% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  76% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: none;
+  }
+  78% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  80% {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: line-through;
+    text-transform: none;
+  }
+  82% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+  }
+  84% {
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  86% {
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  88% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  90% {
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+  92% {
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  94% {
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  96% {
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+  }
+  98% {
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+  }
+}
+
+
+
+
+		.backgroundorange{background: url(headercircle.png);
+			background-size: 50% auto;
+			background-repeat: no-repeat;
+			margin:auto;
+			margin-top: -40px;
+			background-position: center;}
+
+		.backgroundorange2{background: url(headercircle.png);
+			background-size: 90% auto;
+			background-repeat: no-repeat;
+			margin:auto;
+			background-position: center;
+			background-color: white;
+			z-index:54}
+
+
+		@keyframes changetransparency{
+		0%{opacity: 0%}
+		100%{opacity: 100%}
+		}
+		.opacitychange{animation:changetransparency 3s 1s }
+
+		h2{text-align: left; font-weight: 500;font-size: 100px;line-height: 150px;font-style: normal;margin-top: 200px}
+
+		.half{display: flex; width: 1200px}
+		.grid1{width: 600px;font-weight:500;font-style: italic;font-size: 50px}
+
+		h3{text-align: center;font-weight: 700;font-size: 280px}
+
+
+		
+		a:hover{font-size: 50px;text-decoration: none;color: white}
+
+		.leftnav{margin-top: 0px; z-index: 54;position: sticky;}
+		.leftnava{display:block;line-height: 70px;font-size:10px;margin-top:0px;margin-left: 0px}
+		.responsea{font-size: 10px;font-weight: 500}
+
+		.mainnav{display: block;top:45vh; z-index: 54}
+		.mainnava{display: block; font-weight: 400;font-size: 50px;text-decoration: none;color: black; line-height: 140px;}
+		.mainnava :hover {font-weight: 500;font-size: 50px;text-decoration: none;}
+		
+
+
+		.navhalf{display: block;display: flex; width: 1200px;margin:auto;}
+		.navgrid{display: block;width: 50%;text-align:left;margin-left: 0px}
+		.navgrid2{display: block;width: 50%;text-align:right; margin-right: 0px}
+
+
+
+.section3{width:1500px;display: flex;}
+.grid2{width: 600px;}
+.grid3{width: 900px}
+
+
+  #camera{display: block;top:50% left:50%;
+		 width: 100%;
+		 border: 0px;
+		 margin-right: 150px;
+		}
